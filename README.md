@@ -1,10 +1,10 @@
-React 2nd homework
+React 3nd homework
 
 <div>
   <h1>Phonebook</h1>
 </div>
 
-Contact Book.
+Contact Book. Lifecycle
 
 Write an application to store your phonebook contacts.
 
@@ -78,3 +78,10 @@ phonebook. If you try to do so, print alert with a warning.
 
 Step 6. Extend the functionality of the app by allowing the user to delete
 previously saved contacts.
+
+Step 7. Add storage phonebook contacts to `localStorage'. Use lifecycle methods.
+
+- When you add and delete a contact, the contacts are stored in the local
+  storage.
+- When the application is loaded, contacts, if any, are read from local storage
+  and are written to the state.
